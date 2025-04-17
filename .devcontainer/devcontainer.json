@@ -2,7 +2,7 @@
   "name": "nba_project",
   "dockerComposeFile": "../docker-compose.yml",
   "service": "app",
-  "workspaceFolder": "/app",  
+  "workspaceFolder": "/nba_project",  
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
@@ -11,6 +11,6 @@
     "ms-toolsai.jupyter",
     "ms-azuretools.vscode-docker"
   ],
-  "postCreateCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "pip install -r app/requirements.txt",
   "remoteUser": "root"
 }

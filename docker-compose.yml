@@ -6,7 +6,7 @@ services:
     container_name: nba_app
     command: tail -f /dev/null
     volumes:
-      - ./app:/app
+      - .:/nba_project
     environment:
       KAGGLE_USERNAME: ${KAGGLE_USERNAME}
       KAGGLE_KEY: ${KAGGLE_KEY}
